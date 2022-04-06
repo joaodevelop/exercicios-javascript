@@ -1,0 +1,27 @@
+body{
+    font: 20px Times;
+}
+.navbar {
+background-color: lightslategray;
+}
+
+.sessao {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: antiquewhite;
+}
+
+.quemsou {
+    background-color: dimgrey;
+}
+.objetivos {
+    background-color: rgb(59, 63, 63);
+}
+.serviços {
+    background-color: rgb(70, 108, 156);
+}
+.rodape{
+    background-color: rgb(37, 31, 31);
+    color: aliceblue;
+}
