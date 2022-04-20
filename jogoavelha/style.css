@@ -1,0 +1,28 @@
+body{
+    font: 20px Times;
+    text-align: center;
+}
+
+.quadrado {
+        text-align: center;
+        background-color: antiquewhite;
+        padding: 20px;
+        width: 73px;
+        font-size: 60px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 5px;
+        font: Times;
+        box-shadow: 5px 5px 5px rgb(32, 19, 2);
+        font: rgb(208, 203, 197);
+}
+
+#separar{
+    margin-top: 15px;
+
+}
+
+#vencedor{
+    font-size: larger;
+    font-style: italic;
+}
