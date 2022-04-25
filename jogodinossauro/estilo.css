@@ -1,0 +1,51 @@
+body {
+background-color: rgb(240, 240, 240);
+font: normal 15pt Arial;
+overflow: hidden;
+}
+header{
+color: rgb(16, 17, 17);
+text-align: center;
+}
+
+#dino{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(dino.png);
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.295);
+}
+
+.cactus{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(cactus.png);
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.295);
+}
+footer{
+color: rgb(6, 6, 6);
+text-align: center;
+}
+
+@keyframes deslizar {
+    from {
+        background-position: 70000%;
+
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+.background{
+    background-image: url(background.png);
+    position: absolute;
+    bottom: 0;
+    background-repeat: repeat-x;
+    animation: deslizar 600s infinite linear;
+    height: 200px;
+    width: 100%;
+}
