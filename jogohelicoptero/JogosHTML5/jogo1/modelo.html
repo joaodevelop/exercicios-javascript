@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Helicoptero</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <div id="container">
+
+            <div id="fundoGame">
+                <div id="inicio"> <h1>Resgate</h1>
+                    <p> Instruções: Utilize a tecla W para mover o Helicoptero para cima e a tecla S para movê-lo para baixo. Aperte espaço para atirar!</p>
+                    <input type="button" value="Iniciar jogo" onclick="start()"></input>
+                </div>
+
+            </div>
+           
+
+        </div>
+        <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+        <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+        <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+        <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+        <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+        <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+        <script src="script.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="../jogo1/js/jquery-collision.min.js"></script>
+    <footer>
+        <p>&copy; Site exercício JavaScript!</p>
+
+    </footer>
+</body>
+</html>
