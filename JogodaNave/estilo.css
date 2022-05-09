@@ -1,0 +1,103 @@
+body {
+background-color: rgb(6, 116, 206);
+font: normal 15pt Arial;
+text-align: center;
+padding: 0;
+margin: 0;
+
+}
+header{
+color: azure;
+text-align: center;
+}
+#jogo{
+    background-color: rgb(13, 13, 13);
+    background-image: url("../JogodaNave/img/space.png");
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.295);
+    font-size: large;
+    font-family: sans-serif;
+    color: antiquewhite;
+    
+}
+
+#hero{
+    position:absolute;
+    width: 70px;
+    height: 60px;
+    left: 800px;
+    top: 500px;
+}
+
+#start{
+    top: 500px;
+    margin: 400px;
+}
+footer{
+color: azure;
+text-align: center;
+}
+
+#disparo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.alien{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+
+
+
+}
+
+#monstro{
+    position: absolute;
+
+}
+#explosao{
+    background-image: url(../JogodaNave/img/explosion.png);
+    position:absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.laser{
+    position: absolute;
+}
+
+.dead-alien{
+
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 1300px;
+	top: 100px;
+}
+
+#fim {
+	width:350px;
+	height:200px;
+	background-color:rgb(17, 16, 16);
+ 	margin-left:auto;
+    margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}
