@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor1: #84e0ad;
+    --cor2: #3ad27d;
+    --cor3: #217947;
+    --cor4: #195d38;
+    /*usar ctrl+espaço para as cores aparecerem*/
+}
+
+body{
+    background-color: #84e0ad;
+    font-weight: bold;
+}
+
+main p{
+    text-indent: 40px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+div p{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3ad27d, #217947, #195d38);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+
+header > h1{
+    text-shadow: -2px 3px 7px black;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+header > p{
+    margin:auto;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 20px;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+header > nav{
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav> a:hover{
+    background-color: #27a25c;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    color: #195d38;
+
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1070px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#titulo{
+    font-family: 'idroid';
+    color: #195d38;
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-family: 'idroid';
+    color: #195d38;
+    background-image: linear-gradient(to right, #84e0ad68, white);
+}
+
+.video{
+    background-color: #195d38;
+    margin: 0px -20px 0px -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+.video iframe {
+    position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+#learn{
+    background-color: #3cae6f;
+    margin: 30px 30px 0px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#lista{
+    background-color: #84e0ad;
+    margin: -3px 30px 30px 30px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    columns: 2;
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: #195d38;
+    color: white;
+    font-style: italic;
+    padding: 3px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.hiper{
+    text-decoration: none;
+    color: #195d38;
+    font-weight: bolder;
+    background-color: #84e0ad;
+}
+
+.hiper:hover{
+    text-decoration: underline;
+}
+
+ul  li::marker{
+    content: "✔ ";
+}
+
