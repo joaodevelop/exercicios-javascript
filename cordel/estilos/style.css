@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Sriracha', cursive;*/
+* {
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 48px;
+    font-variant: small-caps;
+    padding: 10px;
+    font-weight: bold 900;
+    margin: -10px -10px 0px -10px;
+
+}
+
+header p{
+    font-size: 16px;
+}
+h1{
+    padding: 30px;
+}
+
+p > a{
+    color: white;
+}
+
+main{
+    font-family: 'Sriracha', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: white;
+    text-align: justify;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+    border-bottom: 0px;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+
+
+
+#dif{
+    padding-bottom: 0px;
+}
+
+.img{
+    background-color: black;
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgb(51, 49, 49);
+}
+
+#img2{
+    background-image: url(../imagens/background002.jpg);
+    color: black;
+}
+
+.caixa{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(105, 102, 102, 0.539);
+    
+}
+
+#livro{
+    text-shadow: 1px;
+}
+
+p{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 0px -10px 0px -10px;
+}
+
+footer a{
+    color: white;
+
+}
