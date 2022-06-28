@@ -1,27 +1,184 @@
+:root{
+    margin: 0px;
+    color: rgb(1, 9, 11);
+}
+
 body{
-    font: 20px Times;
-}
-.navbar {
-background-color: lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
 }
 
-.sessao {
-    padding-top: 30px;
-    text-align: center;
-    padding-bottom: 30px;
-    color: antiquewhite;
+header{
+    background-image: linear-gradient(to bottom, rgb(70, 68, 68), black);
+    color: rgb(159, 226, 243);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: -10px;
+    padding-left: 20px;
+
+    
+}
+h1{
+    text-shadow: 1px 1px rgb(8, 169, 194);
 }
 
-.quemsou {
-    background-color: dimgrey;
+ul{
+    display: flex;
+    list-style: none;
+    color: coral;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1.5em;
 }
-.objetivos {
-    background-color: rgb(59, 63, 63);
+
+li{
+    padding-right: 10px;
 }
-.serviços {
-    background-color: rgb(70, 108, 156);
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.rodape{
-    background-color: rgb(37, 31, 31);
-    color: aliceblue;
+
+header span{
+    color: rgb(27, 27, 221);
+}
+
+header a{
+    text-decoration: none;
+    color: coral;
+}
+
+header a:hover{
+    text-decoration: underline;
+    
+}
+
+h2{
+    color: rgb(27, 27, 221);
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 1px 1px rgb(8, 169, 194);
+
+    min-width: 320px;
+    max-width: 1070px;
+
+
+}
+
+.flex a{
+    color: rgb(159, 226, 243);
+}
+.flex a:hover{
+    color: coral;
+    text-shadow: 0px 0px blue;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 100%;    
+    
+
+
+    
+}
+
+.coluna span{
+    color: rgb(159, 226, 243)
+}
+
+.divisao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    height: 50vh;
+
+
+}
+
+.coluna p{
+    padding-left: 15px;
+}
+
+.round{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+#objetivos{
+    background-image: linear-gradient(to bottom, rgb(70, 68, 68), black);
+    color: rgb(159, 226, 243);
+    display: flex;
+    align-items: center;
+    min-width: 320px;
+    max-width: 1070px;
+
+}
+
+#serviços{
+    height: 60vh;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    background-image: linear-gradient(to bottom, rgb(70, 68, 68), black);
+    align-items: center;
+}
+footer a{
+    color: coral;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+.main{
+    min-width: 320px;
+    max-width: 1070px;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  
+    
+
+
+}
+
+.row{
+    display: flex;
+}
+
+
+
+@media (max-width: 650px){
+
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .row{
+        flex-direction: row;
+    }
 }
